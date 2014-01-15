@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/player/StaticPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/player/WeightedPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/player/ChangingWeightedPlayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/judge/Judge.java" afterPath="$PROJECT_DIR$/src/judge/Judge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/WeightedPlayer.java" afterPath="$PROJECT_DIR$/src/player/WeightedPlayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GameTheoryJudge.iws" />
@@ -74,7 +72,7 @@
       <file leaf-file-name="IPlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="425">
+            <state line="15" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -83,7 +81,7 @@
       <file leaf-file-name="GameDetails.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/judge/GameDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="408">
+            <state line="9" column="29" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -92,7 +90,7 @@
       <file leaf-file-name="Judge.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/judge/Judge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="79" selection-start="249" selection-end="249" vertical-scroll-proportion="0.35695538" vertical-offset="0" max-vertical-offset="1411">
+            <state line="7" column="76" selection-start="167" selection-end="167" vertical-scroll-proportion="0.31233597" vertical-offset="0" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -101,7 +99,18 @@
       <file leaf-file-name="WeightedPlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/WeightedPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="66" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="918">
+            <state line="16" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangingWeightedPlayer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/player/ChangingWeightedPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="39" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -119,7 +128,7 @@
       <file leaf-file-name="SimplePlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="71" selection-end="491" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="561">
+            <state line="10" column="0" selection-start="216" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -128,7 +137,7 @@
       <file leaf-file-name="StaticPlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/StaticPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="27" column="22" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -137,7 +146,7 @@
       <file leaf-file-name="IGameDetails.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/judge/IGameDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="55" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="6" column="55" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -146,7 +155,7 @@
       <file leaf-file-name="RangePlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/RangePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="50" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="14" column="50" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -178,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/player/StaticPlayer.java" />
         <option value="$PROJECT_DIR$/src/player/WeightedRange.java" />
         <option value="$PROJECT_DIR$/src/player/RangePlayer.java" />
+        <option value="$PROJECT_DIR$/src/player/ChangingWeightedPlayer.java" />
         <option value="$PROJECT_DIR$/src/player/WeightedPlayer.java" />
         <option value="$PROJECT_DIR$/src/judge/Judge.java" />
       </list>
@@ -215,6 +225,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,7 +283,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,6 +357,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -372,19 +395,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -463,32 +473,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489019" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -512,6 +522,71 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/judge/GameDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/judge/Judge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="79" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/WeightedPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="66" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/judge/PlayerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="53" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="71" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/StaticPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="22" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/judge/IGameDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/RangePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="25" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
@@ -563,14 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="71" selection-end="491" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="561">
+        <state line="15" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
@@ -603,16 +671,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="216" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/ChangingWeightedPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="39" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="316" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/WeightedPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="66" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="509" max-vertical-offset="918">
-          <folding />
+        <state line="16" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/judge/Judge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="79" selection-start="249" selection-end="249" vertical-scroll-proportion="0.35695538" vertical-offset="0" max-vertical-offset="1411">
+        <state line="7" column="76" selection-start="167" selection-end="167" vertical-scroll-proportion="0.31233597" vertical-offset="0" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>

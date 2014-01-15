@@ -5,8 +5,8 @@ import player.*;
 public class Judge {
     private boolean NOTIFY = true;
 
-    private IPlayer playerOne = new PlayerWrapper(new RangePlayer(2), NOTIFY);
-    private IPlayer playerTwo = new PlayerWrapper(new WeightedPlayer(1,1,100000), NOTIFY);
+    private IPlayer playerOne = new PlayerWrapper(new WeightedPlayer(1,50,500), NOTIFY);
+    private IPlayer playerTwo = new PlayerWrapper(new ChangingWeightedPlayer(10,100,1000), NOTIFY);
 
     private static final int NUM_TRIALS = 100000;
     private static final int N = 100;
