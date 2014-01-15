@@ -1,14 +1,12 @@
 package judge;
 
-import player.IPlayer;
-import player.RangePlayer;
-import player.SimplePlayer;
+import player.*;
 
 public class Judge {
     private boolean NOTIFY = true;
 
-    private IPlayer playerOne = new PlayerWrapper(new SimplePlayer(), NOTIFY);
-    private IPlayer playerTwo = new PlayerWrapper(new RangePlayer(2), NOTIFY);
+    private IPlayer playerOne = new PlayerWrapper(new RangePlayer(2), NOTIFY);
+    private IPlayer playerTwo = new PlayerWrapper(new WeightedPlayer(1,1,100000), NOTIFY);
 
     private static final int NUM_TRIALS = 100000;
     private static final int N = 100;
