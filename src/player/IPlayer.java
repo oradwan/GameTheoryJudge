@@ -11,7 +11,7 @@ public interface IPlayer {
     //but due to game settings, these things might not get called, so be robust to that.
     //the game details can explain whether you'll be notified or not (passed into getBid).
     public void handleLoss(int opponentBid);
-    public void handleDraw();
+    public void handleDraw(int opponentBid);
     public void handleWin(int opponentBid);
 
      //name your strategy

@@ -16,7 +16,7 @@ public class StaticPlayer implements IPlayer{
     }
 
     @Override
-    public void handleDraw() {
+    public void handleDraw(int opponentBid) {
     }
 
     @Override
