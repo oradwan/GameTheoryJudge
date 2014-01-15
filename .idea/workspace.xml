@@ -2,31 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/judge/GameDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GameTheoryJudge.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/judge/IGameDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/player/IPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/judge/Judge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/oliverradwan.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/judge/GameDetails.java" afterPath="$PROJECT_DIR$/src/judge/GameDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/judge/IGameDetails.java" afterPath="$PROJECT_DIR$/src/judge/IGameDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/IPlayer.java" afterPath="$PROJECT_DIR$/src/player/IPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/judge/Judge.java" afterPath="$PROJECT_DIR$/src/judge/Judge.java" />
     </list>
     <ignored path="GameTheoryJudge.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389746555860" ignored="false" />
-    <file path="/IPlayer.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389747834144" ignored="false" />
-    <file path="/IGameDetails.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389746666785" ignored="false" />
-    <file path="/GameDetails.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389746811053" ignored="false" />
-    <file path="/Judge.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389748305937" ignored="false" />
+    <file path="/IPlayer.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389749467428" ignored="false" />
+    <file path="/IGameDetails.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389749408767" ignored="false" />
+    <file path="/GameDetails.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389749432583" ignored="false" />
+    <file path="/Judge.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389749316123" ignored="false" />
     <file path="/SimplePlayer.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389748217026" ignored="false" />
+    <file path="/PlayerWrapper.java" changelist="dfb59dd8-c3e9-4b21-8398-a0c9263c8f64" time="1389749270389" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,36 +65,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/judge/Judge.java" line="38" class="judge.Judge" package="judge">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/judge/Judge.java" line="41" class="judge.Judge" package="judge">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -115,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IPlayer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="IPlayer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="16" column="25" selection-start="618" selection-end="618" vertical-scroll-proportion="0.53571427">
               <folding />
             </state>
           </provider>
@@ -127,7 +86,7 @@
       <file leaf-file-name="GameDetails.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/judge/GameDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="9" column="29" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +95,7 @@
       <file leaf-file-name="Judge.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/judge/Judge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+            <state line="12" column="30" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +103,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimplePlayer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PlayerWrapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/judge/PlayerWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="26" selection-start="53" selection-end="66" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimplePlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="170" selection-end="170" vertical-scroll-proportion="0.234375">
+            <state line="6" column="38" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,7 +124,7 @@
       <file leaf-file-name="IGameDetails.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/judge/IGameDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="6" column="55" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,11 +148,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/player/SimplePlayer.java" />
+        <option value="$PROJECT_DIR$/src/judge/PlayerWrapper.java" />
         <option value="$PROJECT_DIR$/src/judge/IGameDetails.java" />
         <option value="$PROJECT_DIR$/src/judge/GameDetails.java" />
-        <option value="$PROJECT_DIR$/src/player/IPlayer.java" />
         <option value="$PROJECT_DIR$/src/judge/Judge.java" />
-        <option value="$PROJECT_DIR$/src/player/SimplePlayer.java" />
+        <option value="$PROJECT_DIR$/src/player/IPlayer.java" />
       </list>
     </option>
   </component>
@@ -443,7 +412,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32957748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -511,39 +480,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/judge/PlayerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="53" selection-end="66" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/judge/IGameDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/judge/GameDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="6" column="55" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/judge/Judge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
+        <state line="12" column="30" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/SimplePlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/judge/GameDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="170" selection-end="170" vertical-scroll-proportion="0.234375">
+        <state line="9" column="29" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/IPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="618" selection-end="618" vertical-scroll-proportion="0.53571427">
           <folding />
         </state>
       </provider>

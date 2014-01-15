@@ -4,13 +4,15 @@ import player.IPlayer;
 import player.SimplePlayer;
 
 public class Judge {
-    private IPlayer playerOne = new SimplePlayer();
-    private IPlayer playerTwo = new SimplePlayer();
+    private boolean NOTIFY = true;
+
+    private IPlayer playerOne = new PlayerWrapper(new SimplePlayer(), NOTIFY);
+    private IPlayer playerTwo = new PlayerWrapper(new SimplePlayer(), NOTIFY);
 
     private static final int NUM_TRIALS = 10000;
-    private static final int n = 100;
+    private static final int N = 100;
 
-    private final IGameDetails details = new GameDetails(n);
+    private final IGameDetails details = new GameDetails(N, NOTIFY);
 
     private static final int WIN_VALUE = 1;
     private static final int LOSS_VALUE = -1;
@@ -35,10 +37,10 @@ public class Judge {
         int bidOne = playerOne.getBid(details);
         int bidTwo = playerTwo.getBid(details);
         //cheating
-        if (bidOne < 1 || bidOne > n) {
+        if (bidOne < 1 || bidOne > N) {
             playerOneScore += LOSS_VALUE;
         }
-        if (bidTwo < 1 || bidTwo > n) {
+        if (bidTwo < 1 || bidTwo > N) {
             playerTwoScore += LOSS_VALUE;
         }
 
