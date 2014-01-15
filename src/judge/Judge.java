@@ -1,15 +1,16 @@
 package judge;
 
 import player.IPlayer;
+import player.RangePlayer;
 import player.SimplePlayer;
 
 public class Judge {
     private boolean NOTIFY = true;
 
     private IPlayer playerOne = new PlayerWrapper(new SimplePlayer(), NOTIFY);
-    private IPlayer playerTwo = new PlayerWrapper(new SimplePlayer(), NOTIFY);
+    private IPlayer playerTwo = new PlayerWrapper(new RangePlayer(2), NOTIFY);
 
-    private static final int NUM_TRIALS = 10000;
+    private static final int NUM_TRIALS = 100000;
     private static final int N = 100;
 
     private final IGameDetails details = new GameDetails(N, NOTIFY);
