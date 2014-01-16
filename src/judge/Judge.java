@@ -5,8 +5,8 @@ import player.*;
 public class Judge {
     private boolean NOTIFY = true;
 
-    private IPlayer playerOne = new PlayerWrapper(new WeightedPlayer(1,50,500), NOTIFY);
-    private IPlayer playerTwo = new PlayerWrapper(new ChangingWeightedPlayer(10,100,1000), NOTIFY);
+    private IPlayer playerOne = new PlayerWrapper(new SimpleNotifiedPlayer(), NOTIFY);
+    private IPlayer playerTwo = new PlayerWrapper(new WeightedPlayer(1,1,100000), NOTIFY);
 
     private static final int NUM_TRIALS = 100000;
     private static final int N = 100;
@@ -46,9 +46,9 @@ public class Judge {
         //game rules
         if (bidOne == bidTwo) {
             playerOneScore += DRAW_VALUE;
-            playerOne.handleDraw();
+            playerOne.handleDraw(bidTwo);
             playerTwoScore += DRAW_VALUE;
-            playerTwo.handleDraw();
+            playerTwo.handleDraw(bidOne);
         } else if (bidOne + 1 == bidTwo) {
             playerOneScore += WIN_VALUE;
             playerOne.handleWin(bidTwo);

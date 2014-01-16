@@ -25,9 +25,9 @@ public class PlayerWrapper implements IPlayer {
     }
 
     @Override
-    public void handleDraw() {
+    public void handleDraw(int opponentBid) {
         if (notify) {
-            innerPlayer.handleDraw();
+            innerPlayer.handleDraw(opponentBid);
         }
     }
 

@@ -13,7 +13,7 @@ public class SimplePlayer implements IPlayer{
     }
 
     @Override
-    public void handleDraw() {
+    public void handleDraw(int opponentBid) {
     }
 
     @Override
