@@ -20,10 +20,6 @@ public class ChangingWeightedPlayer extends WeightedPlayer {
     }
 
     @Override
-    public void handleDraw() {
-    }
-
-    @Override
     public void handleWin(int opponentBid) {
         values.add(lastBid);
     }
